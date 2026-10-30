@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BELJOUR — Full Beauty Studio</title>
+<meta name="description" content="Beljour is a full beauty studio for your own photos: skin, makeup, hair, photo fixes, video and filters in one private studio, almost all of it running on your device.">
+<meta name="theme-color" content="#6B3044">
+<link rel="canonical" href="https://alenzacodes.github.io/beljour-site/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BELJOUR">
+<meta property="og:title" content="BELJOUR — Full Beauty Studio">
+<meta property="og:description" content="Your best day. Still you. Skin, makeup, hair, photo fixes, video and filters in one private studio.">
+<meta property="og:url" content="https://alenzacodes.github.io/beljour-site/">
+<meta property="og:image" content="https://alenzacodes.github.io/beljour-site/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A woman checks her skin in a mirror with a phone, next to the words BELJOUR, Full Beauty Studio, Your best day. Still you.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BELJOUR — Full Beauty Studio">
+<meta name="twitter:description" content="Your best day. Still you. A private beauty studio for your own photos.">
+<meta name="twitter:image" content="https://alenzacodes.github.io/beljour-site/assets/img/og.jpg">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#top" aria-label="Beljour, back to top">
+      <span class="brand-name">BELJOUR</span>
+      <span class="brand-sub">FULL BEAUTY STUDIO</span>
+    </a>
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#features">What it does</a></li>
+        <li><a href="#different">Why it's different</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="eyebrow">Full beauty studio</p>
+        <h1 id="hero-title">Your best day.<br>Still you.</h1>
+        <p class="lead">Skin, makeup, hair, photo fixes, video and filters in one private studio, almost all of it our own code running on your device. Anything sent to an outside service asks you first.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#features">See what's inside</a>
+          <a class="btn btn-ghost" href="#privacy">How your photos are handled</a>
+        </div>
+        <p class="status"><span class="dot" aria-hidden="true"></span> Web app in development. Not yet released.</p>
+      </div>
+      <figure class="hero-art">
+        <img src="assets/img/hero.webp" width="1400" height="933" alt="Illustration: a woman looks into a mirror while holding a phone showing the Beljour app." fetchpriority="high">
+      </figure>
+    </div>
+  </section>
+
+  <section class="numbers" aria-label="Beljour by the numbers">
+    <div class="wrap">
+      <ul class="stats">
+        <li><strong>120</strong><span>built features in 10 groups</span></li>
+        <li><strong>61</strong><span>colour and black-and-white filters</span></li>
+        <li><strong>60</strong><span>face lenses in our own designs</span></li>
+        <li><strong>8</strong><span>retouch brushes</span></li>
+      </ul>
+      <p class="fine">Counted from the app's own feature registry. Most features are tested on drawn and synthetic test images; quality on real faces is still being measured.</p>
+    </div>
+  </section>
+
+  <section class="moment" aria-labelledby="moment-title">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow">Featured · Skin Moment</p>
+        <h2 id="moment-title">Three skin moments, one clear next step</h2>
+        <p>People wonder about their skin right before they buy a product, right after a breakout, and weeks later in the mirror, asking whether a product is working. Skin Moment meets each one on a single page.</p>
+        <ol class="steps">
+          <li><strong>Before I buy.</strong> Your skin is measured, product types are ranked by what it shows, and the matched foundation shade is shown on your face.</li>
+          <li><strong>After a breakout.</strong> What to do today, this week, and what to stop, in plain cosmetic wording, with clear notes on when to see a dermatologist.</li>
+          <li><strong>Is it working?</strong> Today's check-in next to your last one, concern by concern. A change smaller than the noise band is called "no real change", not progress.</li>
+        </ol>
+        <p class="fine">Skin analysis and makeup try-on use the YouCam API, only with your consent. Cosmetic information, not medical advice. Adults only.</p>
+      </div>
+      <figure class="shot">
+        <img src="assets/img/skin-moment.webp" width="1280" height="900" loading="lazy" alt="Beljour Skin Moment screen asking 'What's your skin moment?' with three cards: Before I buy, After a breakout, and Is it working?">
+      </figure>
+    </div>
+  </section>
+
+  <section id="features" class="features" aria-labelledby="features-title">
+    <div class="wrap">
+      <p class="eyebrow">What it does</p>
+      <h2 id="features-title">Every tool, in one studio</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20l6-6m2-8l6 6-8 8H4v-6z"/></svg></div>
+          <h3>Pro photo editor</h3>
+          <p>Light, colour, detail and effects; a colour mixer with skin-tone protection on by default; RGB curves; tap-or-paint selective adjust; crop, rotate, straighten and keystone. Every slider starts at no change.</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3m0 12v3M3 12h3m12 0h3"/></svg></div>
+          <h3>Retouch brushes</h3>
+          <p>Eight brushes: heal, texture-kept smooth, whiten for teeth and eye whites, details, relight, blur, colour and reshape. Moles and freckles are kept unless you choose otherwise.</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 4c4 0 6 3 6 8s2 8 6 8M10 4c3 1 4 4 4 8"/></svg></div>
+          <h3>Hair</h3>
+          <p>Colour that keeps your curls, painted highlights and balayage, 73 haircut references, hair-fibre fullness, and a Grey Transition mode with three salon-decision previews: Cover, Blend and Go silver.</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12c3-5 15-5 18 0-3 5-15 5-18 0z"/><circle cx="12" cy="12" r="2.5"/></svg></div>
+          <h3>Skin and makeup</h3>
+          <p>Blemish healing, wrinkle softening that never fully erases, under-eye and tone evening, eye looks, brow tint and an undertone-aware shade matcher whose foundation is never applied lighter than your skin.</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M8 6l2-2h4l2 2"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Photo fixes</h3>
+          <p>Enhance and low-light rescue, red-eye and glasses-glare fixes, old-photo scratch repair, object removal, background blur and replace, and an ID-photo crop helper.</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="8" cy="10" r="3"/><circle cx="16" cy="10" r="3"/><path d="M3 20c1-3 3-4 5-4s4 1 5 4m-2-4c1-.7 2-1 3-1 2 0 4 1 5 4"/></svg></div>
+          <h3>Group photos</h3>
+          <p>Edit each face in a photo of 2 to 6 people separately, merge everyone's best shot into one picture, and rank a burst to find the best selfie, with a plain reason for each place.</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3z"/></svg></div>
+          <h3>Video and live mirror</h3>
+          <p>Skin smoothing, background change, enhance and live filters on clips or a live mirror, plus a local reels editor. Frames are processed on your device and nothing is uploaded.</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5z"/></svg></div>
+          <h3>Lenses and Create</h3>
+          <p>60 face lenses (props, fun warps, beauty and effects) that follow your face, plus text, drawing, stickers, five frames, collages of 2 to 9 photos and eight 9:16 story templates.</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="M4 15l4-4 4 4 3-3 5 5"/></svg></div>
+          <h3>Export and batch</h3>
+          <p>One-tap export sizes that crop without squashing and won't cut off your face, with no watermark for anyone. Apply a saved look to up to 100 photos at once, and save looks to re-apply in one tap.</p>
+        </article>
+      </div>
+
+      <div class="gallery">
+        <figure class="shot">
+          <img src="assets/img/studio.webp" width="744" height="772" loading="lazy" alt="The Beljour Studio: a portrait with compare modes along the top and the Adjust panel with exposure, brilliance, highlights, shadows and contrast sliders.">
+          <figcaption>The Studio: ten compare modes, a layer stack, undo and redo.</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="assets/img/lenses-create.webp" width="862" height="686" loading="lazy" alt="Phone showing the Face lenses page with a flower-crown lens, next to a browser showing the Create panel with sticker packs.">
+          <figcaption>Face lenses on a phone, and Create in the browser.</figcaption>
+        </figure>
+      </div>
+      <p class="fine center">Screenshots from the Beljour web app in development. The example people are AI-generated.</p>
+    </div>
+  </section>
+
+  <section id="different" class="different" aria-labelledby="different-title">
+    <div class="wrap">
+      <p class="eyebrow">Why it's different</p>
+      <h2 id="different-title">Built to keep you looking like you</h2>
+      <ul class="pillars">
+        <li>
+          <h3>Never lightens your skin by default</h3>
+          <p>Shade, makeup, beauty and lens tools are built so skin does not get lighter. Anything that would lighten skin, like tan removal, is opt-in only and never in a default preset.</p>
+        </li>
+        <li>
+          <h3>Simulations are labelled</h3>
+          <p>Age, shape and expression previews carry a Simulation label. Face shape is described as a difference from a reference, never as attractive or not.</p>
+        </li>
+        <li>
+          <h3>Honest numbers</h3>
+          <p>Skin advice uses the measured score, not a friendlier display score, and an honesty meter shows the share of pixels each edit changed.</p>
+        </li>
+        <li>
+          <h3>Our own code and designs</h3>
+          <p>Almost every tool runs on our own code in your browser. Filters, lenses, looks and templates carry our own names, with no other app's presets or assets.</p>
+        </li>
+        <li>
+          <h3>Says what it won't do</h3>
+          <p>Features that would need an uncleared model, or would cross a line (like teen looks or celebrity lookalikes), are not offered. The app shows only what is built.</p>
+        </li>
+        <li>
+          <h3>Accessible by design</h3>
+          <p>Every text and background colour pair meets WCAG AA contrast, single-key shortcuts can be turned off, and the Studio carries a built-in accessibility check.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="privacy" class="privacy" aria-labelledby="privacy-title">
+    <div class="wrap split">
+      <figure class="shot">
+        <img src="assets/img/consent.webp" width="824" height="652" loading="lazy" alt="Beljour consent screen titled 'Before anything is sent', listing what is sent and what stays with you, with checkboxes for age and consent.">
+      </figure>
+      <div>
+        <p class="eyebrow">Privacy</p>
+        <h2 id="privacy-title">You see what is sent before anything leaves</h2>
+        <ul class="checks">
+          <li>No account and no tracking.</li>
+          <li>On-device mode in the Trust Centre sends nothing to YouCam or to the Beljour server.</li>
+          <li>Location data (EXIF) is stripped from photos on arrival.</li>
+          <li>Uploaded photos are deleted from the server within an hour, or at once when you press delete.</li>
+          <li>Skin and body history stay in your browser as numbers and dates, never photos. Export or clear them any time.</li>
+          <li>Fonts and models load from the same site; no requests to outside font or code hosts.</li>
+        </ul>
+        <p class="fine">The Trust Centre lists every switch, and anything not built yet says so.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p><span class="brand-name small">BELJOUR</span> <span class="brand-sub">FULL BEAUTY STUDIO</span></p>
+    <p>Built by <a href="https://alenzacodes.github.io/john-khan-site/">ALENZA CODES</a>, Toronto, Ontario</p>
+    <p class="fine">© 2026 ALENZA CODES. All rights reserved. YouCam is a product of Perfect Corp. Fraunces font under the SIL Open Font License.</p>
+  </div>
+</footer>
+</body>
+</html>
